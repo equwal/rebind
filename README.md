@@ -7,8 +7,8 @@ Android phone or tablet.
 
 **Free beta.** Download the APK from
 [Releases](https://github.com/equwal/rebind/releases). Everything works at no
-charge while the beta is open. This build stops being free on 2027-03-31 at the
-latest. Beta testers get the licence at the tester price afterwards.
+charge while the beta is open. On a device with no Google Play, the app stays
+free and complete after the beta too.
 
 ## What it does
 
@@ -53,6 +53,12 @@ Before you uninstall: if Rebind handles the Power button, turn that off first
 
 Send a device report from Advanced > Device report. You see all of it before
 it is sent, and you send it yourself.
+
+## Say thanks
+
+Rebind is free on every device that has no Google Play. If it made your
+device better, you can [buy me a coffee](https://ko-fi.com/truex). A tip
+unlocks nothing.
 
 ## Feedback
 
