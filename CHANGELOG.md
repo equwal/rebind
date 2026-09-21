@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.0.14-alpha - 2026-09-21
+
+Version code 14.
+
+- **Permissions covers the extensions again.** New items, each only where it
+  can apply: "Install apps from Rebind" (the build that carries apps), "Ink
+  Recents: app usage data" (when Ink Recents is installed), and "Home screen"
+  to choose inkOS or ThinkLauncher (when one is installed). "Set up what is
+  missing" walks through them too. The main screen still counts only the
+  grants of Rebind itself.
+- **Fix: voice typing said "The microphone is not allowed" although it was
+  allowed.** Android gives the microphone to an app only while that app is in
+  use. The Viwoods firmware does not count a speech app as in use while it
+  listens in the background for another app, so Whisper was refused (error
+  9). Rebind now goes to the speech screen of the speech app, where that app
+  is in use, takes the words from its result, and remembers the route.
+  Regression test: `DictationRouteTest`.
+- **Fix: "Let Rebind get the Power hold" opened nothing.** Android has no
+  request dialog for the assistant role. The row now opens the settings page
+  "Default digital assistant app".
+
 ## 0.0.13-alpha - 2026-09-21
 
 Version code 13.
