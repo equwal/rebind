@@ -44,7 +44,11 @@ The pictures are from a Viwoods AiPaper Reader.
 - Navigation in any mix of button bar, gestures and the Power button (needs
   Shizuku or an adb grant).
 - Extra-dim frontlight below the lowest system level (needs Shizuku with root).
-- Export and import of all settings as one JSON file.
+- Export and import of all settings as one JSON file. Rebind also keeps an
+  automatic copy in `Documents/Rebind/`, which stays after an uninstall.
+- Updates: [Ink Update](https://github.com/equwal/ink-update) tells you when a
+  new version is ready. It is an app of its own, so that Rebind needs no
+  internet permission.
 
 No ads. No internet permission. Nothing is collected. See
 [PRIVACY.md](PRIVACY.md).
