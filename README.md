@@ -22,8 +22,14 @@ free and complete after the beta too.
   [Shizuku](https://github.com/RikkaApps/Shizuku), every Power press works:
   tap, double tap, triple tap, hold.
 - An on-screen button that floats over every app, for devices with few buttons.
-- Recent apps made for e-ink: cards with no glide, swipe up to close an app,
-  swipe down to close all the others.
+- Recent apps made for e-ink: a button opens
+  [Ink Recents](https://github.com/equwal/ink-recents), our free and open
+  source recent-apps app. Cards with no glide, swipe up to close an app, swipe
+  down to close all the others.
+- Carries three apps of other makers, not changed, and installs them when you
+  ask: CLauncher (minimal home screen, GPL-3.0), Ink Recents (GPL-3.0) and
+  Whisper (speech to text on the device, MIT). Android asks you before each
+  install. Rebind downloads nothing: it has no internet permission.
 - Navigation in any mix of button bar, gestures and the Power button (needs
   Shizuku or an adb grant).
 - Extra-dim frontlight below the lowest system level (needs Shizuku with root).
