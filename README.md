@@ -10,6 +10,17 @@ Android phone or tablet.
 charge while the beta is open. On a device with no Google Play, the app stays
 free and complete after the beta too.
 
+## Screenshots
+
+<p>
+  <img src="screenshots/main.png" width="200" alt="Main screen: a drawing of the device, and each button shows its actions">
+  <img src="screenshots/setup.png" width="200" alt="Set up a button: tap it in the drawing">
+  <img src="screenshots/hacks.png" width="200" alt="Hardware hacks">
+  <img src="screenshots/apps.png" width="200" alt="Apps of other makers that the build carries">
+</p>
+
+The pictures are from a Viwoods AiPaper Reader.
+
 ## What it does
 
 - Tap the button in a drawing of your device. Choose tap, double tap, triple
