@@ -49,6 +49,11 @@ The pictures are from a Viwoods AiPaper Reader.
 No ads. No internet permission. Nothing is collected. See
 [PRIVACY.md](PRIVACY.md).
 
+## Extensions
+
+Rebind puts other apps on a button. The list of extensions, with the intent
+action of each one, is [Awesome Rebind](https://github.com/equwal/awesome-rebind).
+
 ## Install
 
 1. Download `rebind-<version>-full.apk` from Releases and open it.
