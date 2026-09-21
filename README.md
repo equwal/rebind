@@ -37,9 +37,9 @@ The pictures are from a Viwoods AiPaper Reader.
   [Ink Recents](https://github.com/equwal/ink-recents), our free and open
   source recent-apps app. Cards with no glide, swipe up to close an app, swipe
   down to close all the others.
-- Carries three apps of other makers, not changed, and installs them when you
-  ask: CLauncher (minimal home screen, GPL-3.0), Ink Recents (GPL-3.0) and
-  Whisper (speech to text on the device, MIT). Android asks you before each
+- Carries apps of other makers, not changed, and installs them when you ask:
+  inkOS and ThinkLauncher (home screens made for e-ink, GPL-3.0), Ink Recents
+  (GPL-3.0) and Whisper (speech to text on the device, MIT). Android asks you before each
   install. Rebind downloads nothing: it has no internet permission.
 - Navigation in any mix of button bar, gestures and the Power button (needs
   Shizuku or an adb grant).

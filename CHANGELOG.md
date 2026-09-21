@@ -1,5 +1,38 @@
 # Changelog
 
+## 0.0.13-alpha - 2026-09-21
+
+Version code 13.
+
+- **Home screens: inkOS and ThinkLauncher in place of CLauncher.** The build
+  for direct install carries inkOS v0.6 and ThinkLauncher v3.0, both made for
+  e-ink, both GPL-3.0, each the release file of its maker and not changed.
+  ThinkLauncher has the internet permission of its own. Rebind still has
+  none.
+
+- **Change a button from the Done step.** "Change what it does" and "Change
+  how you press it" go back to those steps with the button kept. Back on the
+  Done step goes to the actions too. Tests: `Route.back`.
+- **Show or hide the button bar** is an action (build for direct install).
+  Android 16 has no auto-hide for the three-button bar, so a button does it.
+  It uses the shell commands of the Navigation screen and keeps the gestures
+  as they are. The allow step asks for shell access for this action and for
+  the light actions.
+- **AI voice prompt** is an action of its own (Viwoods). It is what the
+  firmware does on a hold of the AI key: the Viwoods AI screen, told to start
+  its voice prompt. It needs the Viwoods AI account, as the stock hold does.
+  A component launch can now carry text extras (`pkg/class?key=value`).
+  Tests: `ComponentPayloadTest`.
+- **Ask when the user tries it.** The first run asks for every grant once.
+  After that the app asks at the moment something is missing: after a menu is
+  saved, after the Power switch on the Navigation screen, when a Power press
+  arrives while button remapping is off, and when voice typing starts with no
+  microphone grant. Before, those places showed a short message or nothing.
+- **Fix: system Back always closed the button setup.** From Android 13 the
+  system does not call `onBackPressed` for an app with this target version.
+  The setup now registers the Back callback, and Back goes one step back.
+  Checked on the reader: Done, actions, how to press, main screen.
+
 ## 0.0.12-alpha - 2026-09-21
 
 Version code 12.
